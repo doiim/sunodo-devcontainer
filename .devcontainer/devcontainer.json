@@ -10,7 +10,9 @@
 		"ghcr.io/devcontainers/features/docker-in-docker": {
 			"moby": false
 		},
-		"ghcr.io/devcontainers/features/python": {}
+		"ghcr.io/devcontainers/features/python": {
+			"installTools": false
+		}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
